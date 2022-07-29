@@ -1,0 +1,65 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Devillie Hub", "Sentinel")
+
+    -- MAIN
+
+    local Main = Window:NewTab("Main")
+    local MainSection = Main:NewSection("Main")
+
+    MainSection:NewButton("Fly Script", "Lets You Fly Around", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/RusTheBest/flyy/main/flyy'))()
+    end)
+
+    MainSection:NewButton("Chat Spy", "Lets you see everyones chat", function(state)
+        loadstring(game:HttpGet('https://pastebin.com/raw/65SQc61N'))()
+    end)
+
+    MainSection:NewButton("WalkSpeed Bypass", "Bypasses Speed [Hold Shift To Enable]", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/RusTheBest/yesssss/main/bypass'))()
+    end)
+
+    MainSection:NewButton("Free Cam", "Shift + P To Enable", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/yJ51HKy9'))()
+    end)
+
+    MainSection:NewButton("Unlimited Zoom", "Allows you to zoom beyond the limit", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/zP0sVJ6W'))()
+    end)
+
+    -- PLAYER
+    local Main = Window:NewTab("Player")
+    local MainSection = Main:NewSection("Player")
+
+
+    MainSection:NewButton("ESP", "Lets You See Others", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/RusTheBest/yesssss/main/Rus%20ESP'))()
+    end)
+
+    MainSection:NewButton("Spectate Players", "/e :view PLAYERNAME /e :unview", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/8NEu0Riw'))()
+    end)
+   
+     -- Teleportation
+     local Main = Window:NewTab("Teleport")
+     local MainSection = Main:NewSection("Teleportation")
+     local MainSection = Main:NewSection("First go to a flat place on isle like the hill near lighthouse")
+     local MainSection = Main:NewSection("Then Execute the script and load inf yield")
+     local MainSection = Main:NewSection("The script will tp you to your last location")
+     local MainSection = Main:NewSection("Goto Yield and find Teleport tool then boom bypass done")
+     MainSection:NewButton("Teleport Bypass", "Bypasses The TP Back Feature", function()
+            loadstring(game:HttpGet('https://pastebin.com/raw/crnTfD7Y'))()
+     end)
+
+     MainSection:NewButton("Infinite Yield", "FE Admin Commands", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+    end)
+
+     -- Credits
+     local Main = Window:NewTab("Credits")
+     local MainSection = Main:NewSection("Credits")
+     local MainSection = Main:NewSection("Ru$#1551")
+     local MainSection = Main:NewSection("blablaworking#0001")
+
+     local MainSection = Main:NewSection("--------------------------------------------------------------------")
+     local MainSection = Main:NewSection("Testers")
+     local MainSection = Main:NewSection("None")
